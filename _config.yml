@@ -20,7 +20,7 @@ youtube_username: Shrivibhavan Deshpande
 
 # About Section
 # about_title: About Me
-about_profile_image: C:\Users\shriv\Desktop
+about_profile_image: 
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Shrivibhavan and I'm studying in KIT, Kolhapur in Computer Science in Engineering Field.
   I am most skilled in: <mark>Coding</mark> and <mark>Riding Motorcycle</mark>
@@ -38,7 +38,7 @@ about_content: | # this will include new lines to allow paragraphs
 more_content: | # this will include new lines to allow paragraphs
   Alongside my interests in networks and software engineering some of my other interests and hobbies are:
    - Trekking
-   - Working As Team Leader in Group
+   - Coding
    - Riding Motorcycle
     
 # Footer
