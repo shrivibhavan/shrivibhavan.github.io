@@ -1,1 +1,56 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
 
+# Personal info
+name: Shrivibhavan Deshpande
+title: Student at KIT Kolhapur
+email: shrivibhavan.deshpande@gmail.com
+
+
+# Social links
+twitter_username: @DShrivibhavan
+github_username:  shrivibhavan
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: shreevibhavan
+# pinterest_username: jekyll
+youtube_username: Shrivibhavan Deshpande
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: C:\Users\shriv\Desktop
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Shrivibhavan and I'm studying in KIT, Kolhapur in Computer Science in Engineering Field.
+  I am most skilled in: <mark>Coding</mark> and <mark>Riding Motorcycle</mark>
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+   - Trekking
+   - Working As Team Leader in Group
+   - Riding Motorcycle
+    
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
