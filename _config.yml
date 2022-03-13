@@ -4,7 +4,7 @@ favicon: images/favicon.ico
 
 # Personal info
 name: Shrivibhavan Deshpande
-title: Personal Blog and Intresting Stories
+title: Personal Blog 
 email: shrivibhavan.deshpande@gmail.com
 
 # Social links
@@ -22,10 +22,12 @@ youtube_username: Shrivibhavan Deshpande
 # about_title: About Me
 about_profile_image: Profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Shrivibhavan. I'm studying Computer Science Course at KIT Kolhapur.  
+  Hii, Namaskar🙏, myself Shrivibhavan. I'm studying in First Year of Computer Science and Engineering at KIT Kolhapur.
+  On this page I will share you generally latest Global News, Technology, etc.📌
+  
 # Projects Section
-# projects_title: Projects
-
+ #projects_title: 
+ 
 # Experience Section
 # experience_title: Experience
 
@@ -33,12 +35,15 @@ about_content: | # this will include new lines to allow paragraphs
 # educaton_title: Education
 
 # More Section
-# more_title: A Little More About Me
+# more_title: A Little More About Me 🙂
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  Alongside my interests is in software engineering  some of my other interests and hobbies are:
    - Trekking
    - Coding
+   - Cycling
    - Riding Motorcycle
+   - Exploring world of New Technology
+   
 # Footer
 footer_show_references: true
 
