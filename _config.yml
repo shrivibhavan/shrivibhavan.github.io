@@ -25,13 +25,13 @@ about_content: | # this will include new lines to allow paragraphs
   Hii, Namaskar🙏, myself Shrivibhavan. I'm studying in First Year of Computer Science and Engineering at KIT Kolhapur.
   On this page I will share you generally latest Global News, Technology, etc.📌
   
-#projects_title: 1) Lokshikshan 
-We will do this project to teach the people who are un-experienced to the latest Tech. and how it helps us to make our life easier
+#projects_title: #1) Lokshikshan 
+#We will do this project to teach the people who are un-experienced to the latest Tech. and how it helps us to make our life easier
  
 # Experience Section
 # experience_title: Experience
 
- Education Section
+ #Education Section
  #educaton_title: Education- 12th Standar Graduated from New Collge Kolhapur
 
 # More Section
