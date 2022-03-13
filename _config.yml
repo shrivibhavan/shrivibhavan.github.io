@@ -4,9 +4,8 @@ favicon: images/favicon.ico
 
 # Personal info
 name: Shrivibhavan Deshpande
-title: Student at KIT Kolhapur
+title: Personal Blog and Intresting Stories
 email: shrivibhavan.deshpande@gmail.com
-website: www.shrivibhavan.com
 
 # Social links
 twitter_username: shreevibhavan
@@ -21,7 +20,7 @@ youtube_username: Shrivibhavan Deshpande
 
 # About Section
 # about_title: About Me
-about_profile_image: image/Profile.jpg
+about_profile_image: Profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Shrivibhavan. I'm studying Computer Science Course at KIT Kolhapur.  
 # Projects Section
