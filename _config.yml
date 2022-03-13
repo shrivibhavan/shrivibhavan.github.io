@@ -1,17 +1,54 @@
-name = "hello-friend-ng"
-license = "MIT"
-licenselink = "https://github.com/rhazdon/hugo-theme-hello-friend-ng/blob/master/LICENSE.md"
-description = "A simple theme for Hugo. That's it."
-tags = ["blog", "clean", "customizable", "dark", "highlighting", "light", "minimal", "monochromatic", "multilingual", "personal", "responsive", "simple", "technical"]
-features = ["blog", "shortcode", "syntax highlighting"]
-min_version = 0.30
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
 
-[author]
-  name = "Djordje Atlialp"
-  homepage = "https://atlialp.com"
-  twitter = "https://twitter.com/rhazdon"
+# Personal info
+name: Shrivibhavan Deshpande
+title: Student at KIT Kolhapur
+email: shrivibhavan.deshpande@gmail.com
+website: www.shrivibhavan.com
 
-[original]
-  name = "hello-friend"
-  homepage = "https://github.com/panr/hugo-theme-hello-friend"
-  repo = "https://github.com/panr/hugo-theme-hello-friend"
+# Social links
+twitter_username: DShrivibhavan
+github_username:  shrivibhavan
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: shreevibhavan
+# pinterest_username: jekyll
+youtube_username: Shrivibhavan Deshpande
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/Profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Shrivibhavan. 
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+   - Trekking
+   - Coding
+   - Riding Motorcycle
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
