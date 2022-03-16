@@ -1,38 +1,58 @@
-# Site settings
-title: "Shrivibhavan Deshpande"
-email: shrivibhavan.deshpande@gmail.com
-description: "Personal Blog and News"
-baseurl: ""
-url: "http://carte-noire.jacobtomlinson.co.uk/"
-title_description: "A dark blog theme for Jekyll focusing on a clear reading experience. Large text and a narrow body makes carte noire a gorgeous read. With excellent code snippet support and integrated tools such as AddThis and Disqus giving your Jekyll blog all the functionality your users expect."
-title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
-google_analytics: "UA-20365477-4"
-disqus_account: cartenoire
-github_repository: https://github.com/jacobtomlinson/carte-noire
-addthis_id: ra-513c6fa83da6ec67
-post_limit: 5
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
 
-# Social usernames/URLs
+# Personal info
+name: Shrivibhavan Deshpande
+title: Personal Blog 
+email: shrivibhavan.deshpande@gmail.com
+
+# Social links
 twitter_username: shreevibhavan
 github_username:  shrivibhavan
-instagram_username: shreevibhavan
-reddit_username: 
-linkedin_link: https://www.linkedin.com/in/shrivibhavan-d-a74436117/
-#google_plus_link: 
-#stackoverflow_link: 
-#xing_link:
+# dribbble_username: jekyll
 facebook_username: shreevibhavan
+# flickr_username: jekyll
+instagram_username: shreevibhavan
+# pinterest_username: jekyll
+youtube_username: UCaM7zGlwDvH2gQWqmw1hewg
+# googleplus_username: +jekyll
+linkedin_link: https://www.linkedin.com/in/shrivibhavan-d-a74436117/
 
+# About Section
+# about_title: About Me
+about_profile_image: Profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hii, Namaskar🙏, myself Shrivibhavan. I'm studying in First Year of Computer Science and Engineering at KIT Kolhapur.
+  On this page I will share you generally latest Global News, Technology, etc.📌
+  
+projects_title: 1) Lokshikshan We will do this project to teach the people who are un-experienced to the latest Tech. and how it helps us to make our life easier
+ 
+# Experience Section
+# experience_title: Experience
+
+ #Education Section
+ #educaton_title: Education- 12th Standar Graduated from New Collge Kolhapur
+
+# More Section
+more_title: A Little More About Me 🙂
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests is in software engineering  some of my other interests and hobbies are:
+   - Trekking
+   - Coding
+   - Cycling
+   - Riding Motorcycle
+   - Exploring world of New Technology
+   
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_show_references: true
 
 # Build settings
-markdown: kramdown
+remote_theme: sproogen/resume-theme
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
 
-permalink: pretty
-exclude: [vendor]
+plugins:
+ - jekyll-seo-tag
