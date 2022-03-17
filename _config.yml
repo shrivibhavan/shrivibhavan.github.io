@@ -1,13 +1,46 @@
-# Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
-
-# Personal info
-name: Shrivibhavan Deshpande
-title: Personal Blog and News
+# Site settings
+title: Freelancer
 email: shrivibhavan.deshpande@gmail.com
+#url: https://github.com/jeromelachaud/freelancer-theme
+description: "Hii, Namaskar🙏, myself Shrivibhavan. I'm studying in First Year of Computer Science and Engineering at KIT Kolhapur.
+  On this page I will share you generally latest Global News, Technology, etc.📌"
+keywords: "your keywords, separated by commas"
+#skills: "Web Developer - Graphic Artist - User Experience Designer"
+meta_author: Deshpande Shrivibhavan
 
-# Social links
+# Google webmaster tools
+#google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+#bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: Vibhavan
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Dr. Henry Jekyll
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+
 twitter_username: shreevibhavan
 github_username:  shrivibhavan
 # dribbble_username: jekyll
@@ -15,44 +48,24 @@ facebook_username: shreevibhavan
 # flickr_username: jekyll
 instagram_username: shreevibhavan
 # pinterest_username: jekyll
-#youtube_username: UCaM7zGlwDvH2gQWqmw1hewg
+youtube_username: UCaM7zGlwDvH2gQWqmw1hewg
 # googleplus_username: +jekyll
-linkedin_username: shrivibhavan
+# Postal address (add as many lines as necessary)
+#address:
+  #- line: 
+  #- line: Beverly Hills, CA 90210
 
-# About Section
-# about_title: About Me
-about_profile_image: Profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hii, Namaskar🙏, myself Shrivibhavan. I'm studying in First Year of Computer Science and Engineering at KIT Kolhapur.
-  On this page I will share you generally latest Global News, Technology, etc.📌
-  
-projects_title: 1) Lokshikshan We will do this project to teach the people who are un-experienced to the latest Tech. and how it helps us to make our life easier
- 
-# Experience Section
-# experience_title: Experience
-
- #Education Section
- #educaton_title: Education- 12th Standar Graduated from New Collge Kolhapur
-
-# More Section
-more_title: A Little More About Me 🙂
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests is in software engineering  some of my other interests and hobbies are:
-   - Trekking
-   - Coding
-   - Cycling
-   - Riding Motorcycle
-   - Exploring world of New Technology
-   
-# Footer
-footer_show_references: true
+# Credits content
+#credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
-remote_theme: sproogen/resume-theme
+markdown: kramdown
+permalink: pretty
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
