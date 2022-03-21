@@ -1,51 +1,36 @@
-title: Personal Blog and News
-email: shrivibhavan.deshpande@gmail.com
+title: Hello, world! Myself Shrivibhavan
+description: > # this means to ignore newlines until "baseurl:"
+ Hii, Namaskar🙏, myself Shrivibhavan. I'm studying in First Year of Computer Science and Engineering at KIT Kolhapur.
+  On this page I will share you generally latest Global News, Technology, etc.📌 
+permalink: ':title/'
+baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+username_twitter: shreevibhavan
 
-# Social links
-twitter_username: shreevibhavan
-github_username:  shrivibhavan
-# dribbble_username: jekyll
-facebook_username: shreevibhavan
-# flickr_username: jekyll
-instagram_username: shreevibhavan
-# pinterest_username: jekyll
-youtube_username: UCaM7zGlwDvH2gQWqmw1hewg
-# googleplus_username: +jekyll
+# Author Settings
+author: David Freeman # add your name
+author-img: david-freeman.jpg # add your photo
+about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
+social-twitter: shreevibhavan
+social-facebook: shreevibhavan
+social-github: shrivibhavan
+social-linkedin: shreevibhavan
+social-email: shrivibhavan.deshpande@gmail.com
 
-# About Section
-# about_title: About Me
-about_profile_image: Profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hii, Namaskar🙏, myself Shrivibhavan. I'm studying in First Year of Computer Science and Engineering at KIT Kolhapur.
-  On this page I will share you generally latest Global News, Technology, etc.📌
-  
-projects_title: 1) Lokshikshan We will do this project to teach the people who are un-experienced to the latest Tech. and how it helps us to make our life easier
- 
-# Experience Section
-# experience_title: Experience
+# Disqus
+#discus-identifier: mr-brown # add your discus identifier
 
- #Education Section
- #educaton_title: Education- 12th Standar Graduated from New Collge Kolhapur
+# Tracker
+analytics: # Google Analytics
 
-# More Section
-more_title: A Little More About Me 🙂
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests is in software engineering  some of my other interests and hobbies are:
-   - Trekking
-   - Coding
-   - Cycling
-   - Riding Motorcycle
-   - Exploring world of New Technology
-   
-# Footer
-footer_show_references: true
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
+# Build Settings
+markdown: kramdown
 plugins:
- - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
