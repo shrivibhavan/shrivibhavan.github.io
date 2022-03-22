@@ -1,5 +1,5 @@
 # Site
-repository: jekyll-theme-minimal
+repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Personal info
@@ -47,9 +47,8 @@ more_content: | # this will include new lines to allow paragraphs
 footer_show_references: true
 
 # Build settings
-remote_theme: jekyll-theme-minimal
-
-dark_mode:
+remote_theme: sproogen/resume-theme
+    dark_mode:
     always:            false
     dynamic:           true
     sunrise:           6
