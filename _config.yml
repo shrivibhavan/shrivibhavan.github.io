@@ -4,7 +4,7 @@ favicon: images/favicon.ico
 
 # Personal info
 name: Shrivibhavan Deshpande
-title: Personal Blog and News
+title: Personal Blog & News
 email: shrivibhavan.deshpande@gmail.com
 
 # Social links
@@ -48,13 +48,7 @@ footer_show_references: true
 
 # Build settings
 remote_theme: sproogen/resume-theme
-    dark_mode:
-    always:            false
-    dynamic:           true
-    sunrise:           6
-    sunset:            18
-    icon:              true
-
+    
 sass:
   sass_dir: _sass
   style: compressed
