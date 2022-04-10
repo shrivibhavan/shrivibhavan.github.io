@@ -1,17 +1,16 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
+title: Shrivibhavan Deshpande
+email: shrivibhavan.deshpande@gmail.com
 url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+#description: 
+skills: "Web Developer "
+meta_author: Deshpande Shrivibhavan
 
 # Google webmaster tools
-google_verify:
+#google_verify:
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+b#ing_verify:
 
 # Contact form:
 # - static : pass through formspree.io to validate email sending
@@ -21,7 +20,7 @@ contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+disqus_shortname: Vibhavan
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -32,8 +31,8 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Shrivibhaan
+  location: India
   social: Around the Web
   credits: Credits
 
@@ -51,9 +50,9 @@ social:
     url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+#address:
+  #- line: 3481 Melrose Place
+ # - line: Beverly Hills, CA 90210
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
